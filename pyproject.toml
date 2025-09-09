@@ -30,3 +30,9 @@ extend-select = ["I"]  # Add import sorting
 known-first-party = ["adv_mla_lab_4"]
 force-sort-within-sections = true
 
+
+[tool.poetry.dependencies]
+jupyterlab = "4.2.3"
+pandas = "2.2.2"
+scikit-learn = "1.5.1"
+matplotlib = "^3.10.6"
